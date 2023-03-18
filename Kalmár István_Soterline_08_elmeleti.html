@@ -1,0 +1,81 @@
+Mi a CSS? - a)
+a) A weboldalak stílusát, kinézetét leíró nyelv.
+b)Az interneten fellelhető dokumentumok, különböző erőforrások címe.
+c) A webszerverek és a kliens programok (pl. böngészők) közti kommunikáció protokollja.
+d) Olyan program, amellyel az interneten keresztül elérhető weblapok megtekintését teszi
+lehetővé.
+
+Hogyan formázza át a weboldal kinézetét a következő CSS szabály?body{background-color:black; } - a)
+a) A teljes dokumentum háttérszíne fekete.
+b) A teljes dokumentum betűszíne fekete.
+c) A címsor háttérszíne fekete.
+d) A bekezdés betűszíne fekete.
+
+Mire illeszkedik az a CSS szabály, amelynek szelektora: „p.kiemelt{...}”? - c)
+a) Arra a <p> elemre, amely olyan elemen belül található, amelynek "id" jellemzője "kiemelt".
+b) Minden <p class="kiemelt"> elemre.
+c) Minden olyan <p> elemen belüli elemre, amelynek "class" jellemzője "kiemelt".
+d) A <p id="kiemelt"> elemre.
+
+A(z) ...... stílusleíró nyelv, amely a weboldalak megjelenését írja le. Válassza ki, melyik a mondathelyes kiegészítése! - d)
+a) HTML
+b) RSS
+c) XML
+d) CSS
+    
+Hogyan formázza át a weboldal kinézetét a következő CSS szabály? p{font-size:18px; } - c)
+a) A dokumentum teljes szövegének betűmérete 18 pixel.
+b) Az első bekezdés betűmérete 18 pixel, a többi az eredeti betűméret marad.
+c) Minden <p> bekezdés betűmérete 18 pixel.
+d) Minden <p> bekezdés betűmérete 18%-kal nagyobb az eredeti méreténél.
+    
+Miért fontos a weboldalon beillesztett képekhez helyettesítő szöveg megadása? - b)
+a) Tájékoztatja a felhasználót a kép készítőjéről, amely a kép alatt jelenik meg.
+b) Informálja a felhasználót a kép tartalmáról, ha valamilyen ok miatt a kép nem jeleníthető meg,de fontos szerepe van a keresésnél is.
+c) A böngésző programot informálja a kép méreteiről, hogy megfelelően tudja elhelyezni aképernyőn.
+d) Fontos adattal szolgál a webszerver számára a kép méreteiről, hogy optimálisan tudja eltárolnia webtárhelyen.
+
+Mire illeszkedik az a CSS szabály, amelynek szelektora: „.kiemelt p{...}”? - a)
+a) Minden olyan <p> elemre, amely olyan elemen belül található, amelynek "class" jellemzője"kiemelt".
+b)Minden olyan <p> elemre, amely olyan elemen belül található, amelynek "id" jellemzője"kiemelt".
+c) Minden <p class="kiemelt"> elemre.
+d) A <p id="kiemelt"> elemre.
+
+Mik azok a pszeudo osztályok? Mondj néhány példát. Tovabbi muveletekhez lehet vele stilust rendelni.
+Peldaul van a :hover, aminek stilusa akkor lep ervenybe, mikor a hozza tartozo elem aktivalodik, peldaul amikor folevisszuk az egeret.
+Hozza lehet fuzni szelektorokhoz is, pl. .elementclass:hover, tovabbi peldak: a:visited, a:active.
+
+Hogyan hivatkozol a következő kódban, ha a példa szöveget szeretnéd fehér színben megjeleníteni? - Kulso css-ben: .container{color:white;}
+<div class=“container”>
+<div id=“box”>
+<p> <b class=“txt”>EXAMPLE TEXT</b> </p>
+</div>
+</div>
+
+Az alábbi példában szeretném hogy a dobozok a containeren belül egymás mellett legyenek. 
+Mivel kell kiegészítenem a stílus parancsom? - display:flex;
+<div class=“container” style=“………”>
+<div id=“box” style=“width: 300px; height: 300px;”> </div>
+<div id=“box” style=“width: 300px; height: 300px;”> </div>
+</div>
+
+Mi az az Flexbox? - Elemeink elrendezeset modosithatjuk vele a kepernyonkon, igy elemeinket egy adott sorba, vagy oszlopba tehetjuk.
+Meghatarozhatjuk a fo iranyokat, az elemek terkozeit, illetve azt is hogy az elemek uj sorba csusszanak-e, ha mar nem fernek ki, vagy az elemek merete csokkenjen, de maradjon egy sorban.
+
+Mi az a Grid? - A Grid oszlopszeruen jeleniti meg az elemeket es be lehet allitani, hogy hany oszlopban jelenjenek meg az elemek, lehet modositani az elemek kozti terkozoket, a sorok szamat is be lehet allitani.
+
+Mi az a parancs, amivel a grid értékei között egyszerre lehet ugyan akkora térközt tenni? gap: 10px;
+
+Mit jelent a következő? - hogy az elemek egymas mellett helyezkednek el, kozepre vannak igazitva vizszintesen es fuggolegesen is.
+ “style=“display: flex; justify-content: center; justify-item: center;”
+
+Definiáld: reszponzivitás. - Egy Ui/Ux szempontrendszer, ami figyelembe veszi, hogy a felhasznalok kulonbozo kepernyomeretu eszkozokrol es valtozatos korulmenyek kozott keresik fel ugyanazt a weboldalt.
+A bongeszoben a tartalom megjelenese, sorrendje, elrendezese valtozik attol fuggoen hogy milyen meretu kijelzon toltodik be. Ezt ertjuk reszponzivitas alatt.
+
+Miért fontos a reszponzivitás? - Azert, hogy minden tipusu es meretu kijelzon ugyanazt a felhasznaloi elmenyt nyujtsa a weboldalunk tartalma es azert, mert az emberek kb. 70%-a mobiltelefont hasznal weboldalak bongeszesehez es a google is elorebb rangsorolja a talalati listaban a mobile first weboldalakat.
+
+Mi az a mobile-first? - A Google azokat a weboldalakat reszesiti elonyben, amik gyorsan betoltodnek es mobilon is megfeleloen jelennek meg, igy weboldalunk is elorebb fog megjelenni a google talalati listajaban.
+
+Hol és hogyan hivatkozunk, akkor ha szeretnénk kialakítani a reszponziv nézetet? Írj egy példát is. - A htmlunkben belinkelt .css fajlunkban hivatkozunk a kovetkezore:pl.: @media screen and (max-width:1920px) {}
+
+Hány töréspont a javallott 2440px és 360px szélesség között? 5-6 torespont
