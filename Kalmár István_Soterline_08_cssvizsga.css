@@ -1,0 +1,31 @@
+body{
+   
+}
+.kezelesek {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+.flex {
+    display: flex;
+}
+.topnav, a:link, a:active, a:visited {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-left:5%;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    }
+    .topnav a:link,a:visited:hover{
+        color: red;
+    }
+    .tet{
+        text-align: center;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        background-color: rgba(255, 255, 255,0.3);
+    }
