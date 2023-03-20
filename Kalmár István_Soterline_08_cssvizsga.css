@@ -3,11 +3,20 @@ body{
 }
 .kezelesek {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto auto auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+    
 }
 .flex {
     display: flex;
+    padding-top: 160px;
+    
+
 }
 .topnav, a:link, a:active, a:visited {
     display: flex;
@@ -23,9 +32,97 @@ body{
     }
     .tet{
         text-align: center;
+        border-color: pink;
+        border-bottom-width: 20px;
+       
     }
     header{
         position: sticky;
         top: 0;
         background-color: rgba(255, 255, 255,0.3);
     }
+    button{
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        color: red;
+        border-color: red;
+        justify-content: center;
+    }
+    button:hover{
+        color: black;
+        border-color: black;
+    }
+    .te{
+        width: 150px;
+        color: rgb(221, 151, 163);
+        height: 10px;
+        border-width: 0;
+        background-color: pink;
+        
+        }
+        #ti{
+         
+
+        
+        }
+    .szovegek{
+        margin-inline-start: 30px;
+    }
+
+
+
+
+    .flex button{
+        border: 2px solid black;
+        padding: 20px;
+        color: black;
+        border-radius: 0;
+    }
+
+.stat{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    order: 4,2,3,1;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    gap: 10px;
+    text-align: center;
+    
+}
+.stat>div{
+    border: 2px solid white;
+    width: 50%;
+}
+    .grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 50px;
+    }
+    .form{
+        padding-left: 100px;
+        width: 350px;
+        font-size:x-large;
+    }
+    #uzenet{
+        padding-left: 100px;
+        width: 350px;
+        height: 200px;
+    }
+.he2{
+    font-size: 20px;
+}
+.he2 h2:hover{color: lightgreen;}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    align-items: space-around;
+    justify-content: space-around;
+    text-align: center;
+
+}
